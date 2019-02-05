@@ -120,9 +120,21 @@ interface DropMail extends EventEmitter {
   constructor(domain?: string): DropMail;
   forward(to: string, locale?: string): Promise<any>;
   close(): void;
-  on(): void;
-  once(): void;
-  once(): void;
+
+  // EventEmitter
+  addListener(event: string | symbol, listener: (...args: any[]) => void): this;
+  on(event: string | symbol, listener: (...args: any[]) => void): this;
+  once(event: string | symbol, listener: (...args: any[]) => void): this;
+  prependListener(event: string | symbol, listener: (...args: any[]) => void): this;
+  prependOnceListener(event: string | symbol, listener: (...args: any[]) => void): this;
+  removeListener(event: string | symbol, listener: (...args: any[]) => void): this;
+  removeAllListeners(event?: string | symbol): this;
+  setMaxListeners(n: number): this;
+  getMaxListeners(): number;
+  listeners(event: string | symbol): Function[];
+  emit(event: string | symbol, ...args: any[]): boolean;
+  eventNames(): Array<string | symbol>;
+  listenerCount(type: string | symbol): number;
 }
 ```
 
