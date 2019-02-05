@@ -1,6 +1,6 @@
 {
   "name": "dropmail",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "dropmail.me api thingy for node",
   "main": "index.js",
   "directories": {
