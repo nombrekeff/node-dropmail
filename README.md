@@ -24,7 +24,8 @@
 [![NPM quality][code-quality-badge]][code-quality-link]
 
 
-Temporal mail _using [dropmail.me](dropmail.me)_ for node that works _for now :p_
+Temporal mail for node, that works _for now :p_  
+> _using [dropmail.me](dropmail.me)_ 
 
 ## What's it about
 **DropMail** api for NodeJS, for generating random **temporal emails** and **reading the inbox**, you can also **forward emails** to other emails :)
