@@ -1,19 +1,19 @@
 
 <!-- Links -->
-[npm-image]: https://img.shields.io/npm/v/node-dropmail.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/node-dropmail
+[npm-image]: https://img.shields.io/npm/v/dropmail.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/dropmail
 
-[code-quality-badge]: http://npm.packagequality.com/shield/node-dropmail.svg?style=flat-square
-[code-quality-link]: https://packagequality.com/#?package=node-dropmail
+[code-quality-badge]: http://npm.packagequality.com/shield/dropmail.svg?style=flat-square
+[code-quality-link]: https://packagequality.com/#?package=dropmail
 
-[downloads-badge]: https://img.shields.io/npm/dm/node-dropmail.svg?style=flat-square
-[downloads-link]: https://www.npmjs.com/package/node-dropmail
+[downloads-badge]: https://img.shields.io/npm/dm/dropmail.svg?style=flat-square
+[downloads-link]: https://www.npmjs.com/package/dropmail
 
 [dependencies-badge]: https://img.shields.io/david/nombrekeff/node-dropmail.svg?style=flat-square
 [dependencies-link]: https://david-dm.org/nombrekeff/node-dropmail?view=tree
 
-[vulnerabilities-badge]: https://snyk.io/test/npm/node-dropmail/badge.svg?style=flat-square
-[vulnerabilities-link]: https://snyk.io/test/npm/node-dropmail
+[vulnerabilities-badge]: https://snyk.io/test/npm/dropmail/badge.svg?style=flat-square
+[vulnerabilities-link]: https://snyk.io/test/npm/dropmail
 
 # 📧 dropmail nodejs
 [![NPM version][npm-image]][npm-url]
