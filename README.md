@@ -1,5 +1,30 @@
+
+<!-- Links -->
+[npm-image]: https://img.shields.io/npm/v/node-dropmail.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/node-dropmail
+
+[code-quality-badge]: http://npm.packagequality.com/shield/node-dropmail.svg?style=flat-square
+[code-quality-link]: https://packagequality.com/#?package=node-dropmail
+
+[downloads-badge]: https://img.shields.io/npm/dm/node-dropmail.svg?style=flat-square
+[downloads-link]: https://www.npmjs.com/package/node-dropmail
+
+[dependencies-badge]: https://img.shields.io/david/nombrekeff/node-dropmail.svg?style=flat-square
+[dependencies-link]: https://david-dm.org/nombrekeff/node-dropmail?view=tree
+
+[vulnerabilities-badge]: https://snyk.io/test/npm/node-dropmail/badge.svg?style=flat-square
+[vulnerabilities-link]: https://snyk.io/test/npm/node-dropmail
+
 # 📧 dropmail nodejs
-Temporal mail for node that works _for now :p_
+[![NPM version][npm-image]][npm-url]
+[![Downloads][downloads-badge]][downloads-link]
+[![](https://img.shields.io/bundlephobia/min/json-rpiecy.svg?style=flat-square)]()  
+[![Dependencies][dependencies-badge]][dependencies-link]
+[![Known Vulnerabilities][vulnerabilities-badge]][vulnerabilities-link]
+[![NPM quality][code-quality-badge]][code-quality-link]
+
+
+Temporal mail _using [dropmail.me](dropmail.me)_ for node that works _for now :p_
 
 ## What's it about
 **DropMail** api for NodeJS, for generating random **temporal emails** and **reading the inbox**, you can also **forward emails** to other emails :)
@@ -90,11 +115,14 @@ This is the only thing you will use.
 
 **Signature**:
 ```ts
-interface DropMail {
-  address: Address;
+interface DropMail extends EventEmitter {
+  address: EmailAddress;
   constructor(domain?: string): DropMail;
   forward(to: string, locale?: string): Promise<any>;
   close(): void;
+  on(): void;
+  once(): void;
+  once(): void;
 }
 ```
 

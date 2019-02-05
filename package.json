@@ -1,13 +1,17 @@
 {
   "name": "dropmail",
   "version": "1.0.2",
-  "description": "Temporal mail for node that works _for now :p_",
+  "description": "dropmail.me api thingy for node",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
   "bin": {
     "dropmail": "./bin/dropmail.js"
+  },
+  "repository": {
+    "type": "vcs",
+    "url": "https://github.com/nombrekeff/node-dropmail"
   },
   "scripts": {},
   "keywords": [
