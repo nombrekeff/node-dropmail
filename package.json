@@ -1,0 +1,37 @@
+{
+  "name": "dropmail",
+  "version": "1.0.2",
+  "description": "Temporal mail for node that works _for now :p_",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "bin": {
+    "dropmail": "./bin/dropmail.js"
+  },
+  "scripts": {},
+  "keywords": [
+    "mail",
+    "email",
+    "temporal",
+    "temporary",
+    "10",
+    "minute",
+    "min",
+    "cli",
+    "forward",
+    "forwarding"
+  ],
+  "author": {
+    "email": "manoloedge96@gmail.com",
+    "name": "Manolo Edge"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "qs": "^6.6.0",
+    "ws": "^6.1.3",
+    "yargs": "^12.0.5"
+  }
+}
