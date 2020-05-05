@@ -27,6 +27,10 @@
 Temporal mail for node, that works _for now :p_  
 > _using [dropmail.me](dropmail.me)_ 
 
+
+## NOTICE
+> I do not maintain this repo any more, if you use it please let me now and will be glad to help out :)
+
 ## What's it about
 **DropMail** api for NodeJS, for generating random **temporal emails** and **reading the inbox**, you can also **forward emails** to other emails :)
 
