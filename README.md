@@ -62,10 +62,10 @@ let mail = new DropMail('10mail.org');
  */
 mail.on('ready', () => {
   /**
-   * Forward all email to 'manoloedge96@gmail.com'
+   * Forward all email to '<your_email>'
    * will send a confirmation email, can be in spam
    */
-  mail.forward('manoloedge96@gmail.com')
+  mail.forward('<your_email>')
     .then((res) => console.log(res))
     .catch((err) => console.log(err));
 });
